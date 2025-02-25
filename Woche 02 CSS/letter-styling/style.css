@@ -5,8 +5,8 @@ body {
 }
 
 .sender-column {
-    display: flex;
-    justify-content: right;
+  display: flex;
+  justify-content: right;
   margin-top: 20px;
 }
 
@@ -19,19 +19,32 @@ h2 {
   margin-top: 3em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #9999FF;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #9999ff;
 }
 
 p {
   text-align: justify;
 }
 
-p,ul,ol,dl,address {
+p,
+ul,
+ol,
+dl,
+address {
   font-size: 1.1em;
 }
 
-p, li, dd, dt, address {
+p,
+li,
+dd,
+dt,
+address {
   line-height: 1.5;
 }
 
@@ -47,7 +60,6 @@ dt {
 strong {
   color: #000087;
 }
-
 
 .blue {
   color: blue;

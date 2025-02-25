@@ -1,40 +1,43 @@
 # Woche 2: CSS
 
-
 ## Vorlesungsfolien
 
 [CSS](02%20CSS.pdf)
-
 
 ## Übungen
 
 ### 1. Etwas CSS für den Letter (Vorlesung)
 
-Das Dokument [letter.html](letter-styling/letter.html) enthält bereits CSS, direkt in einem `<style>`-Element. 
+Das Dokument [letter.html](letter-styling/letter.html) enthält bereits CSS, direkt in einem `<style>`-Element.
 Verschiebe diese CSS-Regeln in eine separate Datei `letter.css` und verlinke diese im HTML.
 
 Erweitere das Stylesheet um einige Regeln:
 
-* Der ganze Brief soll in einer serifenlosen Schriftart (`sans-serif`) dargestellt werden.
-* Die Überschriften im Brief sollen einen dezenten, nicht allzu gesättigten Blauton haben.
-* Die Links sollen einen hellen, gesättigten Blauton haben.
-* Begriffe, die definiert werden, sollen fett und kursiv sein.
-* Alles, was fett ist, soll dunkelblau sein (ausser Überschriften).
-
+- Der ganze Brief soll in einer serifenlosen Schriftart (`sans-serif`) dargestellt werden.
+- Die Überschriften im Brief sollen einen dezenten, nicht allzu gesättigten Blauton haben.
+- Die Links sollen einen hellen, gesättigten Blauton haben.
+- Begriffe, die definiert werden, sollen fett und kursiv sein.
+- Alles, was fett ist, soll dunkelblau sein (ausser Überschriften).
 
 ### 2. Priorität & Spezifität (Vorlesung)
 
 Welche Textfarbe haben die fünf Abschnitte in folgendem HTML-Dokument?
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <head>
-    <title>Example</title>
-    <style>
-        p    { color: red;   }
-        #foo { color: green; }
-        .foo { color: blue;  }
-    </style>
+  <title>Example</title>
+  <style>
+    p {
+      color: red;
+    }
+    #foo {
+      color: green;
+    }
+    .foo {
+      color: blue;
+    }
+  </style>
 </head>
 <p>One</p>
 <p class="foo">Two</p>
@@ -47,13 +50,12 @@ Welche Textfarbe haben die fünf Abschnitte in folgendem HTML-Dokument?
 
 Erweitere das Stylesheet für den Letter erneut, sodass folgende Darstellung erreicht wird. Für den ersten Punkt musst du auch das HTML etwas anpassen.
 
-* Adressat links-bündig, aber eingerückt
-* Mehr Abstand zwischen Abschnitten (oberhalb von Überschriften)
-* Platz für Unterschrift
-* Blocksatz
+- Adressat links-bündig, aber eingerückt
+- Mehr Abstand zwischen Abschnitten (oberhalb von Überschriften)
+- Platz für Unterschrift
+- Blocksatz
 
 <img src="letter-styling/letter.png" alt="letter" width="800">
-
 
 ### 4. News-Page layouten
 
@@ -63,13 +65,11 @@ Ohne CSS sieht die Seite so aus wie links, mit könnte sie ungefähr so aussehen
 
 <img src="news/news.png" alt="news" width="800">
 
-
 ### 5. CSS-Quiz
 
 Zum Abschluss kannst du Dein Wissen in einem Quiz testen: https://www.w3schools.com/css/css_quiz.asp
 
 Ein paar der Fragen beziehen sich auf spezifische Attribute, die du vielleicht noch nicht kennst, aber die meisten solltest du beantworten können.
-
 
 ### 6. CSS Zen Garden
 
