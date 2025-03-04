@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<title>Length Converter</title>
+<h1>Convert length</h1>
+<body>
+<p>
+    <b>{# @pebvariable name="input" type="" #}{{ input }}</b> cm's is <b>{# @pebvariable name="convert" type="" #}{{ convert }}</b> inches
+</p>
+</body>

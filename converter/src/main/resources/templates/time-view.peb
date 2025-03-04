@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<title>Time</title>
+<h1>Current Time with Pebble</h1>
+<p>
+{# @pebvariable name="time" type="" #}{{ time }}
+</p>
